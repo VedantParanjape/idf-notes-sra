@@ -1,0 +1,7 @@
+menu "Value of i"
+    config VALUE_OF_I
+        int "initial value of i"
+        default 0
+        help
+            "set value of i"
+endmenu
