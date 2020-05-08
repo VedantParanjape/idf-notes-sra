@@ -6,6 +6,7 @@
 * Kconfig defines the entries of the menu
 
 * Kconfig starts and ends with `menu` and `endmenu`
+
 ```
 menu
 
@@ -20,6 +21,7 @@ three data types only:
 * bool
 
 we use `config` to configure a value
+
 ```
 config MESSAGE_QUEUE_SIZE
     int "Queue Size"
